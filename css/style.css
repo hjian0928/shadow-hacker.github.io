@@ -1,0 +1,220 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: visible;
+    font-size: 15px;
+    /* line-height: 20px; */
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #b3b9bf;
+    background: #f9f9f9;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    margin: 10px 0px;
+    color: white;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 0px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    margin: 10px 0px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+h4 {
+    margin: 0px 0px 10px;
+    padding-top: 5px;
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h4-5 {
+    margin: 0px 0px 10px;
+    padding-top: 5px;
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 850;
+}
+
+h5 {
+    margin: 10px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+h6 {
+    margin: 10px 0px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #333;
+}
+
+
+/* 分隔线 */
+
+.separater {
+    display: block;
+    width: 100%;
+    height: 0px;
+    margin: 0px auto 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom: 4px double rgba(0, 0, 0, 0.23);
+    box-shadow: none;
+    color: #333;
+}
+
+.separater.bg {
+    border-bottom-color: rgba(255, 255, 255, 0.70);
+    box-shadow: none;
+    color: rgb(185, 185, 185);
+    width: 100%;
+}
+
+.separater.tg {
+    border-bottom-color: rgba(37, 37, 37, 0.7);
+    box-shadow: none;
+    color: rgb(37, 37, 37);
+    width: 100%;
+}
+
+
+/* 主标题 */
+
+.maintitle {
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #323A45;
+}
+
+.maintitle back {
+    background-color: transparent;
+}
+
+.maintitle text {
+    color: white;
+}
+
+
+/* 方块游戏 */
+
+.brickgame {
+    background-color: #181717;
+    background-image: none;
+    background-position: 0% 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+.brickgame.title {
+    color: white;
+}
+
+.brickgame.text {
+    line-height: 2;
+    font-size: 16px;
+    color: white;
+}
+
+
+/* Trigger */
+
+.trigger {
+    padding-top: 0px;
+    background-color: #f5debe;
+    background-image: none;
+    background-position: 0% 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+.trigger.title {
+    color: black;
+}
+
+.trigger.text {
+    line-height: 2;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* footer */
+
+.footer-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 2;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* img */
+
+img {
+    max-width: 100%;
+}
